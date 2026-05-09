@@ -1,0 +1,11 @@
+{
+  "name": "context-king",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check src/main.js && node --check src/data/balance.js && node --check src/data/upgrades.js && node --check src/data/milestones.js && node --check src/data/events.js && node --check src/data/himmyQuotes.js"
+  }
+}
